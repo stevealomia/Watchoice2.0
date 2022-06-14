@@ -12,5 +12,5 @@
 User.create("test@test.com",password:"passwork", password_confirmation:"password")
 
 Watch.appi.each_with_index do |watch,index|
-    Watch.creaete(brand: watch, model: "2005.75.00" + "#{index}")
+    Watch.create(brand: watch)
 end
