@@ -19,6 +19,8 @@ class ApplicationController < ActionController::Base
 
     private
 
+    # didn't ended up using this method check later for functionality
+
     # def check_user
     #   if logged_in?
     #       redirect_to dashboard_path

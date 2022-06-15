@@ -9,7 +9,7 @@
 #     Watch.create(brand: Faker::Company.bs, model: Faker::Name.name )
 # end
 
-User.create("test@test.com",password:"passwork", password_confirmation:"password")
+User.create("test@test.com",password:"password", password_confirmation:"password")
 
 Watch.appi.each_with_index do |watch,index|
     Watch.create(brand: watch)

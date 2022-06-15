@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
   <div class="container">
-    <%= link_to "Rails React Example", dashboard_path, class: "navbar-brand" %>
+    <%= link_to "WatChoice", dashboard_path, class: "navbar-brand" %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,7 +12,7 @@
               <%= link_to "Logout", sessions_path, method: :delete, class: "nav-link" %>
           </li>
           <li class="nav-item">
-              <%= link_to "Favourite Watches", favourite_watches_user_path(current_user), class: "nav-link" %>
+              <%= link_to "Favorite Watches", favourite_watches_user_path(current_user), class: "nav-link" %>
           </li>
 
         <% else %>

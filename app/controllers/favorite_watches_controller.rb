@@ -12,7 +12,7 @@ class FavoriteWatchesController < ApplicationController
     def delete
         fav = FavoriteWatch.find params[:watch_id]
         fav.destroy
-        redirect_to favourite_watches_user_path(current_user), :flash => { :alert => "Removed From Favourite!" }
+        redirect_to favourite_watches_user_path(current_user), :flash => { :alert => "Removed From Favorite!" }
     end
 
     private
